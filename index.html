@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&display=swap" rel="stylesheet">
+  <link rel='stylesheet' href='css/amc.css'>
+  <link rel='stylesheet' href='css/style.css'>
+  <title>Frontend Mentor | Project tracking intro component</title>
+</head>
+<body class="flex column">
+  <header id="header" class="p-2 flex px-lg-8">
+    <a href="index.html"><img src="images/logo.svg" alt="Logo Page"></a>
+    <button class="menu-btn">
+      <img src="images/icon-hamburger.svg" alt="Hamburger Icon">
+      <img clasS="none" src="images/icon-close.svg" alt="Close Icon">
+    </button> <!-- MENU HAMBURGUESA -->
+    <nav class="menu py-1">
+      <a class="fw-bold" href="#header">Product</a>
+      <a class="fw-bold" href="#header">Features</a>
+      <a class="fw-bold" href="#header">Pricing</a>
+      <hr class="w-80 mx-auto my-0-5 opacity-3">
+      <a class="fw-bold" href="#header">Login</a>
+    </nav> <!-- NAV -->
+  </header> <!-- HEADER -->
+  <main class="mx-md-auto flex-md column-md row-r-lg">
+    <figure class="img-hero">
+      <img class="mb-2" src="images/illustration-devices.svg" alt="Logo Hero">
+    </figure>
+    <div class="container">
+      <section class="main-text flex column mt-2">
+        <h1 class="mt-1">Powerful insights into your team</h1>
+        <div class="main-text-caption">
+          <span class="bg-black-1 text-white-1 mr-1">NEW</span><small>Monograph dashboard</small>
+        </div> <!-- CAPTION SECTION -->
+        <p class="mt-1 lh-1-5 mt-lg-0">Project planning and time tracking for agile teams</p>
+        <div class="schedule mt-1">
+          <a href="#header" class="btn py-0-5 px-1 text-white-1 mr-1">SCHEDULE A DEMO</a><small>TO SEE A PREVIEW</small>
+        </div>
+      </section> <!-- MAIN TEXT -->
+    </div>
+  </main> <!-- MAIN CONTENT -->
+  <footer class="mt-2 mt-lg-0">
+    <p class="attribution py-1 text-white-1 bg-black-1 text-center">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. <br>
+      Coded by <a href="https://github.com/rcrespoc/">Richard Crespo</a>.
+    </p>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
